@@ -1,0 +1,41 @@
+.container{
+    position: absolute;
+    display: grid;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(rgb(128, 128, 196),rgb(117, 88, 93),rgb(51, 33, 33));
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    font-size: large;
+    color: brown;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    font-size: large;
+    color: rgb(109, 68, 22);
+    position: absolute;
+    top: 40%;
+    left: 40%; 
+    align-items: center;
+    justify-content: center;
+}
+#start{
+    font-size: large;
+    background-color: rgb(79, 80, 148);
+    border-radius: 15px;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    top: 120%;
+    left: 10%;
+}

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+    
     <div class="time">
         <span id="hours">00</span>
         <span>:</span>
@@ -16,13 +18,18 @@
         <span>:</span>
         <span id="session">AM</span>
     </div>
-<!--
-   <div class="timer">
-        <span id="hours" type="number">00</span>
-        <span id="minutes">00</span>
-        <span id="seconds">00</span>
+
+    <div class="timer">
+        <input id="hours-input" type="number" placeholder="HH" min="0" max="23">
+        <span>:</span>
+        <input id="minutes-input" type="number" placeholder="MM" min="0" max="59">
+        <span>:</span>
+        <input id="seconds-input" type="number" placeholder="SS" min="0" max="59">
+        <button id="start" onclick="startTimer()">Start</button>
     </div>
--->
+    
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>
